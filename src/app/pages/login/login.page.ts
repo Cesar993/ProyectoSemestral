@@ -23,8 +23,12 @@ password: string;
     var usuarioLogin = this.usuarioService.validarRutPasword(this.user, this.password);
   // VALIDAR EL INGRESO DEL ADMIN
   if (usuarioLogin != undefined) {
-    this.router.navigate(['/home'])   
-  } else{
+    this.router.navigate(['/admin'])   
+  } 
+  if (usuarioLogin = 'alumno') {
+    this.router.navigate(['/alumno'])
+  }
+  else{
     this.tostadaError();
   }
   }
