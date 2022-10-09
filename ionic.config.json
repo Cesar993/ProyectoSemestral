@@ -1,7 +1,5 @@
 {
-  "name": "Semestral",
-  "integrations": {
-    "capacitor": {}
-  },
+  "name": "test",
+  "integrations": {},
   "type": "angular"
 }
